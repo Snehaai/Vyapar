@@ -2,6 +2,8 @@
 
 **Submitted by:** Sneha Manohar NSUT 2023UCA1930 (snehamanohar068@gmail.com)
 
+**Deployed Link:** https://vyapar-x4se.onrender.com
+
 ## Approach
 
 Trigger-kind dispatcher → per-kind grounded prompt → Gemini 2.0 Flash (free, temp=0) → post-LLM validation → intent-aware reply handler.
