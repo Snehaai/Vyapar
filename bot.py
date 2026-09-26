@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Vyapar Bot — magicpin AI Challenge
-Submitted by: Sneha Manohar
+Submitted by: Sneha Manohar NSUT 2023UCA1930 (snehamanohar068@gmail.com)
 """
 
 import os
@@ -42,8 +42,11 @@ async def healthz():
 @app.get("/v1/metadata")
 async def metadata():
     return {
-        "team_name":     "Vyapar",
-        "team_members":  ["Sneha Manohar"],
+        "bot_name":     "Vyapar",
+        "submitted_by":  ["Sneha Manohar"],
+        "university":      "NSUT",
+        "university_id":   "2023UCA1930",
+        "university_email": "sneha.manohar.ug23@nsut.ac.in",
         "contact_email": "snehamanohar068@gmail.com",
         "model":         "gemini-2.0-flash",
         "fallback":      "llama-3.3-70b-versatile (groq)",
