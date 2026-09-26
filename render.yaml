@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: vyapar-bot
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn bot:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GROQ_API_KEY
+        sync: false
+      - key: TEAM_NAME
+        value: Vyapar
+      - key: OWNER_NAME
+        value: Sneha Manohar
+      - key: CONTACT_EMAIL
+        value: snehamanohar068@gmail.com
+    autoDeploy: true
+    plan: free
+    region: singapore
