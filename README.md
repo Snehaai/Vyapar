@@ -1,6 +1,7 @@
 # Vyapar — AI Customer Assistant Bot
 
 **Submitted by:** Sneha Manohar NSUT 2023UCA1930 (snehamanohar068@gmail.com)
+**Deployed Link:** https://vyapar-x4se.onrender.com
 
 ## Approach
 
